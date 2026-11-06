@@ -1,0 +1,10 @@
+{
+  "python": "3.12",
+  "blender": "4.3.2",
+  "tested_platform": "Linux x86_64 CPU",
+  "tested_install": "requirements.txt + constraints-linux-py312.txt in a clean venv",
+  "windows_status": "PowerShell setup and commands provided, not executed on Windows",
+  "network": "Dependency installation needs Internet. Bundled ONNX + GLB files remove asset downloads from inference.",
+  "gpu_required": false,
+  "viewer_build": "optional Node.js 20+; three 0.171.0 and esbuild 0.24.2; prebuilt local bundle included"
+}

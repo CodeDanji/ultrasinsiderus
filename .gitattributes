@@ -1,0 +1,4 @@
+*.glb binary
+*.onnx binary
+# Generated Three.js bundle contains upstream GLSL template whitespace.
+runtime/viewer/bundle.js -whitespace
