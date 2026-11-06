@@ -18,3 +18,10 @@ node_modules/
 **/node_modules/
 __pycache__/
 *.py[cod]
+
+# Executable runtime: environments, private inputs and generated sessions
+.venv/
+**/.venv/
+runtime/local-sessions/
+runtime/results/
+runtime/private-inputs/

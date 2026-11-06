@@ -1,0 +1,8 @@
+{
+  "assets": [
+    {"path":"ecorche.glb","sha256":"9744d3dffced835961104447d23a781ad469588289ce322d84d000e0d498326c","source":"https://github.com/Charleeh/ecorche/blob/320805e06aee51e2e6f6b22533eb2a59d43f2d4d/model/ecorche.glb","license":"CC-BY-SA-4.0; see ATTRIBUTION.md"},
+    {"path":"vessels.glb","sha256":"d2dd99113eda9ccf39d8a9bff7d6c9d07252867cabdcaf7bc1c3454a2883701d","source":"https://github.com/organui/vessels-3d/blob/74be339badd85f1d3d93e585ed2a5a79c7679342/public/models/vessels.glb","license":"CC-BY-SA-2.1-JP; see VESSELS_ATTRIBUTION.md"},
+    {"path":"weights/u2netp.onnx","sha256":"309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8","source":"https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx","upstream_md5":"8e83ca70e441ab06c318d82300c84806","license":"Upstream U-2-Net Apache-2.0; rembg MIT; see U2NET-LICENSE.txt and REMBG-LICENSE.txt"}
+  ],
+  "notes":"These are pretrained third-party assets, not a model trained on user photos. No private participant photo is included. The ONNX file is the rembg-distributed U2Netp checkpoint, verified by hash."
+}
