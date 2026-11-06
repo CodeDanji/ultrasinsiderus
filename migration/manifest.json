@@ -386,8 +386,10 @@
     {
       "path": "초음파_린스타트업_조사_통합본.md",
       "source_path": "린/초음파_린스타트업_조사_통합본.md",
-      "bytes": 32765,
-      "sha256": "a90055177daa3f1d4e1288d082e2df378ae3726851be92f3dfde6fde606c09bd"
+      "bytes": 32901,
+      "sha256": "d9298d016dac6a9004b2955af378bf93fb101638ab21abbaa252802278d8122e",
+      "source_sha256": "a90055177daa3f1d4e1288d082e2df378ae3726851be92f3dfde6fde606c09bd",
+      "change": "제외한 세션 공통 안내 링크를 원본 저장소의 고정 커밋 URL로 변경"
     },
     {
       "path": "초음파_일상진단_린_사업조사.md",
