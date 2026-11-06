@@ -1,0 +1,405 @@
+{
+  "source_repository": "https://github.com/CodeDanji/insiders-project",
+  "source_commit": "ce431cd56d5ab4d340be603c1e1dd417e1adb70d",
+  "extracted_on": "2026-11-06",
+  "excluded": [
+    "프로젝트_요약.md (세션 공통 안내)",
+    "밸랩/",
+    "십만플/",
+    "자기소개 자료",
+    "_workspace/",
+    "기존 저장소 Git 이력"
+  ],
+  "files": [
+    {
+      "path": "archives/2026-11-03_스파_사진처리_모델_필터_결정문서.md",
+      "source_path": "린/archives/2026-11-03_스파_사진처리_모델_필터_결정문서.md",
+      "bytes": 19224,
+      "sha256": "55105e96c0e775d03ff704865b03564db58a9d3f1a5b51a0e86cbc71662d04d4"
+    },
+    {
+      "path": "output/playwright/brief-assets.json",
+      "source_path": "린/output/playwright/brief-assets.json",
+      "bytes": 798,
+      "sha256": "aeecd539ba9bdc77549b59df24449ce07a995007acb54aa225bace07f53afc7e"
+    },
+    {
+      "path": "output/playwright/brief-before-evidence.html",
+      "source_path": "린/output/playwright/brief-before-evidence.html",
+      "bytes": 3899643,
+      "sha256": "cdaf61ed5994c18c4ec5aec862a5aa3e46365706c4fc258e26732a4584ce6329"
+    },
+    {
+      "path": "output/playwright/brief-desktop.png",
+      "source_path": "린/output/playwright/brief-desktop.png",
+      "bytes": 73335,
+      "sha256": "0d3fbf731620f81c5a1b1a9b3b823003f48d38a620230912ba6a7f5b58b20169"
+    },
+    {
+      "path": "output/playwright/brief-evidence.png",
+      "source_path": "린/output/playwright/brief-evidence.png",
+      "bytes": 61400,
+      "sha256": "f835f6ecb2f58042df04de566bb192a6a10527dd2d072f4144aaa52cde8397d3"
+    },
+    {
+      "path": "output/playwright/brief-gaps.png",
+      "source_path": "린/output/playwright/brief-gaps.png",
+      "bytes": 77911,
+      "sha256": "181484488cf129802ef1f31208866299844edbb36fa3a126d72ddac23f3b657a"
+    },
+    {
+      "path": "output/playwright/brief-mobile-example.png",
+      "source_path": "린/output/playwright/brief-mobile-example.png",
+      "bytes": 23847,
+      "sha256": "279fb9a78da2e3e232f4cf086ae8a143b9094c27b9a946743a723763b16361cd"
+    },
+    {
+      "path": "output/playwright/brief-mobile-method.png",
+      "source_path": "린/output/playwright/brief-mobile-method.png",
+      "bytes": 35751,
+      "sha256": "0351e51e190db1713deb3968c8cd0cd6171f79852818f87f7a0ef77bf0ed084f"
+    },
+    {
+      "path": "output/playwright/brief-mobile-reference.png",
+      "source_path": "린/output/playwright/brief-mobile-reference.png",
+      "bytes": 104852,
+      "sha256": "74bb4e8cb8e3483d90586ef8f57038a80b6273e453abea919c0eee52b0e0cb29"
+    },
+    {
+      "path": "output/playwright/brief-mobile.png",
+      "source_path": "린/output/playwright/brief-mobile.png",
+      "bytes": 40270,
+      "sha256": "eeaf11ec2cc774425dc5420dd8ed3a3c2b2ac93585e253d4b64662be0e26e253"
+    },
+    {
+      "path": "output/playwright/brief-print-check.pdf",
+      "source_path": "린/output/playwright/brief-print-check.pdf",
+      "bytes": 4299211,
+      "sha256": "6c0c34c8e0c219abeb87fcc80bda91d02f4eabf81fd3fd1ce3e853bdfed859ce"
+    },
+    {
+      "path": "output/playwright/brief-references.png",
+      "source_path": "린/output/playwright/brief-references.png",
+      "bytes": 194301,
+      "sha256": "9fe9971692b3766f360679fde531c9edda77d9319abc92b9ed720136d5d78e3f"
+    },
+    {
+      "path": "output/playwright/brief-solution.png",
+      "source_path": "린/output/playwright/brief-solution.png",
+      "bytes": 79491,
+      "sha256": "47978b44188ab12868a9ec816f9023c4294407149123469017f6b92ed86b9e0b"
+    },
+    {
+      "path": "output/playwright/brief-validation.json",
+      "source_path": "린/output/playwright/brief-validation.json",
+      "bytes": 315,
+      "sha256": "4f2eabfb98a150001610fdc8a4a6e15b9a74f7a44e810273eb21b2a017f1f558"
+    },
+    {
+      "path": "output/playwright/build_colleague_brief.py",
+      "source_path": "린/output/playwright/build_colleague_brief.py",
+      "bytes": 18990,
+      "sha256": "43ed5935cb0b8b8f40d4e12ffe4e3486490dad837cdb70c4f9f30d0634f72a8e"
+    },
+    {
+      "path": "output/playwright/build_specs_report.py",
+      "source_path": "린/output/playwright/build_specs_report.py",
+      "bytes": 45037,
+      "sha256": "6e3a1c7a151fbe2aaa2a675b8784005c0e413fcdff96b7e41eb141f2eb303124"
+    },
+    {
+      "path": "output/playwright/check_colleague_brief.py",
+      "source_path": "린/output/playwright/check_colleague_brief.py",
+      "bytes": 4059,
+      "sha256": "7ceb29859974dbf807c0a538fafcca545d2c0e7863de705a02bcd44ffe36207c"
+    },
+    {
+      "path": "output/playwright/check_report.py",
+      "source_path": "린/output/playwright/check_report.py",
+      "bytes": 6898,
+      "sha256": "e24327d107d24d7dad8c86043b2d1e0e56c35fc12d760ae15229b25321e59f12"
+    },
+    {
+      "path": "output/playwright/check_specs_report.py",
+      "source_path": "린/output/playwright/check_specs_report.py",
+      "bytes": 4249,
+      "sha256": "07c6dfc695103145772019d55da9a7acf8ca7b953a0b3862c79f2eee2754a7f7"
+    },
+    {
+      "path": "output/playwright/enrich_colleague_evidence.py",
+      "source_path": "린/output/playwright/enrich_colleague_evidence.py",
+      "bytes": 27143,
+      "sha256": "72d93deeac5865fc4bf04ebde0e773ea54a2e850a0bbeb84c2fc50e28f694893"
+    },
+    {
+      "path": "output/playwright/expand_research.py",
+      "source_path": "린/output/playwright/expand_research.py",
+      "bytes": 58509,
+      "sha256": "18faa5e2a4bdc9c55701ea3fe38d4c990abb5d0794a84e80606ff53cbd9693f7"
+    },
+    {
+      "path": "output/playwright/expanded-research-data.json",
+      "source_path": "린/output/playwright/expanded-research-data.json",
+      "bytes": 39639,
+      "sha256": "05361e631fbe30b857f8fd64833d65e898642cd8fee8e9ef1794bae201447fec"
+    },
+    {
+      "path": "output/playwright/report-before-expanded-research.html",
+      "source_path": "린/output/playwright/report-before-expanded-research.html",
+      "bytes": 47083,
+      "sha256": "574335217f2d7e03bf3d0fb5b5b97e828b64ad27b5ccb753b4c0666ad52a2f5d"
+    },
+    {
+      "path": "output/playwright/report-before-readability.html",
+      "source_path": "린/output/playwright/report-before-readability.html",
+      "bytes": 61888,
+      "sha256": "16426ded673f019889094193c0ea7be6ff995914a8199c66a57b257a4c8a96bc"
+    },
+    {
+      "path": "output/playwright/report-desktop.png",
+      "source_path": "린/output/playwright/report-desktop.png",
+      "bytes": 97038,
+      "sha256": "02aca56378a062aec0d5a8ff16f7d246179116296e92505cc5e1f0d47dabb922"
+    },
+    {
+      "path": "output/playwright/report-mobile-method.png",
+      "source_path": "린/output/playwright/report-mobile-method.png",
+      "bytes": 19926,
+      "sha256": "038d07b43434acd11848b3f0ba540ab98d504f44dc72c9a995d6df24f195945d"
+    },
+    {
+      "path": "output/playwright/report-mobile-product.png",
+      "source_path": "린/output/playwright/report-mobile-product.png",
+      "bytes": 22037,
+      "sha256": "d582b45495cd02cc72c6aedcbca54e1891d433190bc677b45795cc875401f894"
+    },
+    {
+      "path": "output/playwright/report-mobile-reading.png",
+      "source_path": "린/output/playwright/report-mobile-reading.png",
+      "bytes": 99064,
+      "sha256": "96e588e2d5b5018bc5167b2580bf40ef79389eb9ceede439142ea63c6b7f7418"
+    },
+    {
+      "path": "output/playwright/report-mobile.png",
+      "source_path": "린/output/playwright/report-mobile.png",
+      "bytes": 34703,
+      "sha256": "f61ddc02144be789755a8be878c1ab26dc69c543ce250136576ee181d4602849"
+    },
+    {
+      "path": "output/playwright/report-opportunities.png",
+      "source_path": "린/output/playwright/report-opportunities.png",
+      "bytes": 90182,
+      "sha256": "bc0660f5b424990725bb0b2b8128c1064b66b54745703e3642d4d2ad10f7ea91"
+    },
+    {
+      "path": "output/playwright/report-product-catalog.png",
+      "source_path": "린/output/playwright/report-product-catalog.png",
+      "bytes": 55161,
+      "sha256": "3cae705c8795f26318be368bcff5c2e337a04aeeb797613f3fad73d5d3529508"
+    },
+    {
+      "path": "output/playwright/report-product-detail.png",
+      "source_path": "린/output/playwright/report-product-detail.png",
+      "bytes": 24235,
+      "sha256": "14e9f3324e7b08d46f357e97b528e99e031d7829e29a6ddc19e84d31b9f22a3e"
+    },
+    {
+      "path": "output/playwright/report-validation.json",
+      "source_path": "린/output/playwright/report-validation.json",
+      "bytes": 534,
+      "sha256": "c36c1ee5cf42a0f75d235e01bad27db9442e9cd232fcec4bd3a18b5cd0519dc7"
+    },
+    {
+      "path": "output/playwright/research_progress.md",
+      "source_path": "린/output/playwright/research_progress.md",
+      "bytes": 1082,
+      "sha256": "671d9ee4cb3ecbc311a81a40b21242c6b93a3b1a6fd5eea5549f6985b79a86f6"
+    },
+    {
+      "path": "output/playwright/revise_report.py",
+      "source_path": "린/output/playwright/revise_report.py",
+      "bytes": 34541,
+      "sha256": "6e0d1b91808c1692f04886c99e28cb7fbc3a958c53e70f07769ebee21a4bfb75"
+    },
+    {
+      "path": "output/playwright/revise_specs_walkthrough.mjs",
+      "source_path": "린/output/playwright/revise_specs_walkthrough.mjs",
+      "bytes": 32427,
+      "sha256": "b5d1187ab8e5b00469d5b0498a8fc925758bc050d86739028e902585dca42aa0"
+    },
+    {
+      "path": "output/playwright/specs-before-walkthrough.html",
+      "source_path": "린/output/playwright/specs-before-walkthrough.html",
+      "bytes": 62013,
+      "sha256": "a376a887073e3c6279bfd4af64611fb0264f4ed8cb3ec3dbc0437d1da8cfe057"
+    },
+    {
+      "path": "output/playwright/specs-budget.json",
+      "source_path": "린/output/playwright/specs-budget.json",
+      "bytes": 4778,
+      "sha256": "b69f906b11c167fcecf0deeac12f7e9cc60a61970e7ac829d7ffaaf79f1be2a1"
+    },
+    {
+      "path": "output/playwright/specs-desktop.png",
+      "source_path": "린/output/playwright/specs-desktop.png",
+      "bytes": 88028,
+      "sha256": "28208e09ac04462ef920f5f3f4697c15a6e9082b8eab0372d71f3e82e11a2077"
+    },
+    {
+      "path": "output/playwright/specs-mobile-result.png",
+      "source_path": "린/output/playwright/specs-mobile-result.png",
+      "bytes": 24676,
+      "sha256": "d4dec6f09af033fd7700be2a7f9ff11eb762de4260d3995d6d42f6e97c1ea42b"
+    },
+    {
+      "path": "output/playwright/specs-mobile.png",
+      "source_path": "린/output/playwright/specs-mobile.png",
+      "bytes": 34250,
+      "sha256": "d6df257cbc27a72b5a98b7ac774066e91e64e0a2fe7b79e44635b7890082b767"
+    },
+    {
+      "path": "output/playwright/specs-station.png",
+      "source_path": "린/output/playwright/specs-station.png",
+      "bytes": 81606,
+      "sha256": "7baccd826f48209875d24fb1bd4d05c24a64a39f8c56c279bb652fe122663c09"
+    },
+    {
+      "path": "output/playwright/specs-validation.json",
+      "source_path": "린/output/playwright/specs-validation.json",
+      "bytes": 382,
+      "sha256": "9686c437f0f7fd1902b849910c4a9066aff9fcfe8aa1c3aeea7f5739b0b13887"
+    },
+    {
+      "path": "output/playwright/specs_budget.py",
+      "source_path": "린/output/playwright/specs_budget.py",
+      "bytes": 2910,
+      "sha256": "2060ecf745774abd2f845d5b413f3bb57452bb1f803dc9b1f865ab55099be50f"
+    },
+    {
+      "path": "output/playwright/specs_progress.md",
+      "source_path": "린/output/playwright/specs_progress.md",
+      "bytes": 1182,
+      "sha256": "ca79f85635224a8fcc5984bf7dd0bac85bd52f4da4d40dc9cb866f2c0a172292"
+    },
+    {
+      "path": "outputs/B2B2C_솔루션후보_개발스펙_비용_검토.html",
+      "source_path": "린/outputs/B2B2C_솔루션후보_개발스펙_비용_검토.html",
+      "bytes": 92964,
+      "sha256": "40b84dd46b09895df76497b3e619ae0cff96181d56622a0584c53aee46500369"
+    },
+    {
+      "path": "outputs/backups/린_기능평가_아이템_동료공유_문체수정전_20261026_204252.html",
+      "source_path": "린/outputs/backups/린_기능평가_아이템_동료공유_문체수정전_20261026_204252.html",
+      "bytes": 3924228,
+      "sha256": "ecd0b26cba1b0b88c99a7fe8e25228c9d80328f9ffeb28656efc17796f84bc3d"
+    },
+    {
+      "path": "outputs/research_anatomy_20261030.md",
+      "source_path": "린/outputs/research_anatomy_20261030.md",
+      "bytes": 17870,
+      "sha256": "8b1781f614779acae41bce357ef8a99f15be0ab207b7ffcf7bbad9adfe0a8c1f"
+    },
+    {
+      "path": "outputs/research_capture_display_20261030.md",
+      "source_path": "린/outputs/research_capture_display_20261030.md",
+      "bytes": 7211,
+      "sha256": "4179c03ffbc42586b2a50c39bace776b5199380af5b1f53a2d1097c18b27085c"
+    },
+    {
+      "path": "outputs/research_generation_20261030.md",
+      "source_path": "린/outputs/research_generation_20261030.md",
+      "bytes": 20802,
+      "sha256": "59026034b8fdfa6c503cf153f03559b5e81cc55199539492a6a063961eecdefd"
+    },
+    {
+      "path": "outputs/research_surface_3d_20261030.md",
+      "source_path": "린/outputs/research_surface_3d_20261030.md",
+      "bytes": 19491,
+      "sha256": "992515849f6dc50de462f9adbc36dafbe89f965ec5fc2f15bec4a185683d6e07"
+    },
+    {
+      "path": "outputs/근골격계_불편함_기능평가_문제탐색_보고서.html",
+      "source_path": "린/outputs/근골격계_불편함_기능평가_문제탐색_보고서.html",
+      "bytes": 96629,
+      "sha256": "11e23cc8f7187a07d8fcec10fbb370efdde89f89f27cd8a92334cb473e036a82"
+    },
+    {
+      "path": "outputs/린_기능평가_아이템_동료공유.html",
+      "source_path": "린/outputs/린_기능평가_아이템_동료공유.html",
+      "bytes": 3927517,
+      "sha256": "352825731c8f7f52ada51130164fb14c2040501c37e03dffdbcd868a814abbd0"
+    },
+    {
+      "path": "outputs/스파_신체시각화_오픈소스_조사_20261030.md",
+      "source_path": "린/outputs/스파_신체시각화_오픈소스_조사_20261030.md",
+      "bytes": 14951,
+      "sha256": "505ad13ab9d72ba229636cd07afaa80323053eb70166cc820ee83fa38650bbe7"
+    },
+    {
+      "path": "outputs/허리통증_기능평가_서비스_실현가능성_조사.html",
+      "source_path": "린/outputs/허리통증_기능평가_서비스_실현가능성_조사.html",
+      "bytes": 39455,
+      "sha256": "eb73b0bccebd8d850feb558c9c7529b8580092757cebca79b7ca0a3f338120c2"
+    },
+    {
+      "path": "outputs/허리통증_기능평가_서비스_실현가능성_조사.md",
+      "source_path": "린/outputs/허리통증_기능평가_서비스_실현가능성_조사.md",
+      "bytes": 29445,
+      "sha256": "158a3efc4944d5aae8fe9227937ef6969abf36f5586e0c119ebccbda0be0e347"
+    },
+    {
+      "path": "스파_건강시각화_기기스펙_및_오픈소스_조사.md",
+      "source_path": "린/스파_건강시각화_기기스펙_및_오픈소스_조사.md",
+      "bytes": 25042,
+      "sha256": "199b1912e2f3cd4e0b517f50a77c0068481247981dc83b302d4fd42931272adb"
+    },
+    {
+      "path": "스파_건강시각화_프로젝트_맥락.md",
+      "source_path": "린/스파_건강시각화_프로젝트_맥락.md",
+      "bytes": 9398,
+      "sha256": "99541286af4766ba21bb75dd06edecc9cfd7378799bf58615873399773919894"
+    },
+    {
+      "path": "스파_내부모형_이미지생성_PRD.md",
+      "source_path": "린/스파_내부모형_이미지생성_PRD.md",
+      "bytes": 20184,
+      "sha256": "cb7c20de5c8d9e34535181106bc97e697dd72be7250eb50d7a7fa1f8f6b084a1"
+    },
+    {
+      "path": "초음파_360도_단층촬영과_EYParkLab_분석.md",
+      "source_path": "린/초음파_360도_단층촬영과_EYParkLab_분석.md",
+      "bytes": 16492,
+      "sha256": "8bbc16e4aa8dfbce50463d8bcdbe85297d0758fb1620c4ccc4760ac24f75b43e"
+    },
+    {
+      "path": "초음파_근골격계_회복추적_조사.md",
+      "source_path": "린/초음파_근골격계_회복추적_조사.md",
+      "bytes": 23130,
+      "sha256": "79ba4e6563896ae05b26092f7d56b1f25e9b403a2905634a09957563a3d436f3"
+    },
+    {
+      "path": "초음파_레퍼런스_기기_시장조사.md",
+      "source_path": "린/초음파_레퍼런스_기기_시장조사.md",
+      "bytes": 27408,
+      "sha256": "1fdae3be4650375c95a4d8d506ee8be7e09aaded25fd1ba0579922a46dd02bd9"
+    },
+    {
+      "path": "초음파_린스타트업_조사_통합본.md",
+      "source_path": "린/초음파_린스타트업_조사_통합본.md",
+      "bytes": 32765,
+      "sha256": "a90055177daa3f1d4e1288d082e2df378ae3726851be92f3dfde6fde606c09bd"
+    },
+    {
+      "path": "초음파_일상진단_린_사업조사.md",
+      "source_path": "린/초음파_일상진단_린_사업조사.md",
+      "bytes": 21769,
+      "sha256": "94b5d0e004e8dcc44b387c9abc9a7ffbadff0ed801bfe03b7ed83ae1727ab2dc"
+    },
+    {
+      "path": "초음파_활용가능영역_근거맵.md",
+      "source_path": "린/초음파_활용가능영역_근거맵.md",
+      "bytes": 21143,
+      "sha256": "ccfdb452f6aa4fcb2458a5ea38c8c782ef153f7f2a9dfdb33d0ab95cead3d346"
+    }
+  ]
+}

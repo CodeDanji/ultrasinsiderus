@@ -1,0 +1,23 @@
+[
+  {
+    "name": "KINVENT K-Push",
+    "url": "https://kinvent.com/kinvent-product/hand-held-dynamometer-k-push/",
+    "image": "https://kinvent.com/wp-content/uploads/2025/04/k-push-usage-arm.webp",
+    "mime": "image/webp",
+    "bytes": 18868
+  },
+  {
+    "name": "VALD ForceFrame",
+    "url": "https://valdhealth.com/products/forceframe",
+    "image": "https://images.ctfassets.net/98s79sqwuajy/6FQV5bxJ92tzdWEjhPCjrf/d701c3be0f8e7bcac5664ef8ad6e18eb/header-image.png",
+    "mime": "image/png",
+    "bytes": 2154453
+  },
+  {
+    "name": "VALD HumanTrak",
+    "url": "https://valdhealth.com/products/humantrak",
+    "image": "https://images.ctfassets.net/98s79sqwuajy/1GBbUhkSFx0C2L5yXz0oWi/7a7958d71a56a81ef7834f18ae978957/humantrak-hero.png",
+    "mime": "image/png",
+    "bytes": 737335
+  }
+]

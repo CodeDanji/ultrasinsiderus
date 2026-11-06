@@ -1,0 +1,746 @@
+{
+  "methods": [
+    {
+      "name": "문진·환자보고 설문",
+      "group": "기본 평가",
+      "question": "무엇이 불편하고 어떤 활동이 중요한가?",
+      "how": "병력·악화 상황·목표를 묻고 ODI/RMDQ 등 대상에 맞는 설문을 사용한다.",
+      "output": "통증·생활 제한·환자 목표와 경과.",
+      "benefit": "검사 우선순위와 관리 목표를 정하고 환자가 느끼는 변화를 확인한다.",
+      "limit": "자기보고와 실제 힘·신경 기능은 다른 정보다. 도구의 대상·언어·사용 조건을 확인한다.",
+      "keys": [
+        "s02",
+        "shoulder"
+      ]
+    },
+    {
+      "name": "도수근력검사(MMT)",
+      "group": "기본 평가",
+      "question": "뚜렷한 힘 저하가 있으며 어떤 움직임에 나타나는가?",
+      "how": "검사자가 자세를 정하고 저항을 주어 힘을 등급으로 기록한다. 신경 진찰에서는 다른 소견과 분포를 함께 본다.",
+      "output": "부위·움직임별 근력 등급.",
+      "benefit": "신경학적 약화 가능성과 재활 시작 수준을 파악한다.",
+      "limit": "검사자·통증·노력의 영향이 있고 미세한 차이·천장효과에 한계가 있다. 근력 등급과 정밀 힘 측정은 다르다.",
+      "keys": [
+        "lumbar",
+        "hira",
+        "shoulder"
+      ]
+    },
+    {
+      "name": "각도계·경사계·ROM 평가",
+      "group": "기본 평가",
+      "question": "어느 방향으로 얼마나 움직이고 어디에서 불편한가?",
+      "how": "능동·수동 움직임을 표준 자세에서 각도계·경사계 또는 검증된 앱으로 측정한다.",
+      "output": "관절가동범위와 동작 중 증상 반응.",
+      "benefit": "목표 범위와 운동 구성을 정하고 같은 방식으로 변화를 비교한다.",
+      "limit": "관절·동작별 타당도와 오차가 다르다. 어깨 ROM과 동적 견갑골 ROM을 같은 신뢰도로 취급하지 않는다.",
+      "keys": [
+        "shoulder",
+        "s14"
+      ]
+    },
+    {
+      "name": "휴대형·고정형 힘 측정",
+      "group": "기본 평가",
+      "question": "고관절 외전·신전 등 특정 방향의 힘은 어느 정도인가?",
+      "how": "센서를 손·벨트·프레임으로 고정하고 정한 자세에서 힘을 발휘하게 한다.",
+      "output": "힘·시간 곡선, 최대 힘, 조건에 따른 토크·좌우·전후 비교.",
+      "benefit": "근육군의 기능 수준과 저항운동 진행을 수치로 검토한다.",
+      "limit": "자세·고정·레버암·노력에 좌우된다. 반복성이 좋아도 장비 간 절대값이 같거나 원인 진단이 된다는 뜻은 아니다.",
+      "keys": [
+        "s06",
+        "fftrial"
+      ]
+    },
+    {
+      "name": "등속성 동력계",
+      "group": "기본 평가",
+      "question": "일정 속도로 관절을 움직일 때 힘·일·지구력은 어떠한가?",
+      "how": "몸과 관절축을 장비에 맞춰 고정하고 속도·운동범위·검사 모드를 설정한다.",
+      "output": "토크 곡선·최대 토크·일·파워·반복 중 변화.",
+      "benefit": "관절별 동적 능력과 재활 전후 차이를 자세히 비교한다.",
+      "limit": "공간·정렬·고정·훈련된 인력이 필요하다. 고립 관절 과제가 실제 생활 동작을 모두 대변하지는 않는다.",
+      "keys": [
+        "biodex",
+        "humac",
+        "s14"
+      ]
+    },
+    {
+      "name": "동작·지구력·균형 과제",
+      "group": "움직임·부하 평가",
+      "question": "걷기·일어나기·버티기 등 실제 과제를 얼마나 수행하는가?",
+      "how": "걷기·앉았다 일어나기·계단·체간 지구력 등을 표준화한다. 고령자에서는 TUG·의자 일어나기·균형 과제를 선택할 수 있다.",
+      "output": "시간·횟수·거리·유지시간·증상 반응.",
+      "benefit": "생활 목표와 훈련량을 정하고 수행 변화를 확인한다.",
+      "limit": "하나의 과제에는 여러 기능이 관여한다. 고령자 낙상 기준을 젊은 요통 환자 정상치로 사용하지 않는다.",
+      "keys": [
+        "s05",
+        "cdc"
+      ]
+    },
+    {
+      "name": "동작관찰·카메라·IMU",
+      "group": "움직임·부하 평가",
+      "question": "어떤 움직임 전략을 쓰고 안내를 바꾸면 어떻게 달라지는가?",
+      "how": "팔 올리기·힌지·스쿼트·보행 등을 관찰하거나 카메라·착용 센서로 기록한다.",
+      "output": "각도·시점·속도·분절 관계 및 계산된 움직임 지표.",
+      "benefit": "연습할 동작과 피드백을 구체화하고 반복 과제를 비교한다.",
+      "limit": "카메라 가림·센서 부착·버전·과제에 영향. 근력·심부근육 활성·조직 부하를 직접 측정한 값과 구분한다.",
+      "keys": [
+        "s04",
+        "humantrak",
+        "vimove"
+      ]
+    },
+    {
+      "name": "힘판·족저압·보행 분석",
+      "group": "움직임·부하 평가",
+      "question": "양쪽 발에 어떻게 힘을 싣고 걷기·착지에서 어떻게 분배하는가?",
+      "how": "힘판 또는 압력센서 보행로·트레드밀·인솔 위에서 정한 과제를 수행한다.",
+      "output": "지면반력·압력중심·발바닥 압력·접촉시간·보행 지표.",
+      "benefit": "균형·하중 전략과 신발·보조기·재활 전후를 비교한다.",
+      "limit": "힘판과 압력매트·인솔은 측정 신호가 다르다. 특정 근육이나 통증 원인을 직접 알려주는 검사는 아니다.",
+      "keys": [
+        "forcedecks",
+        "zebris",
+        "tekscan"
+      ]
+    },
+    {
+      "name": "표면근전도(sEMG)",
+      "group": "움직임·부하 평가",
+      "question": "과제 중 표면 근육의 전기활동과 타이밍은 어떠한가?",
+      "how": "피부 전극을 배치하고 정한 과제에서 신호를 수집·정규화한다.",
+      "output": "전기활동 진폭·활성 시점·이완 및 근육 간 타이밍.",
+      "benefit": "근육 사용 연습의 피드백과 움직임 분석 정보를 보탠다.",
+      "limit": "근력 자체가 아니다. 피부·전극 위치·인접 신호에 영향받으며 진단용 침근전도/NCS와도 다르다.",
+      "keys": [
+        "delsys",
+        "noraxon",
+        "semgreview"
+      ]
+    },
+    {
+      "name": "신경학적 진찰·신경역학 검사",
+      "group": "신경 평가",
+      "question": "신경근·말초신경과 맞는 약화·감각·반사·증상 분포가 있는가?",
+      "how": "움직임별 힘·감각·반사·보행과 필요 시 SLR·slump 등을 함께 확인한다.",
+      "output": "소견의 분포와 일치 여부, 증상 재현 양상.",
+      "benefit": "신경 관련 문제를 감별하고 추가 검사·진료의 우선순위를 정한다.",
+      "limit": "발가락 힘 확인은 이 과정의 일부일 수 있다. 단일 음성 소견으로 모든 신경 문제를 배제하지 않는다.",
+      "keys": [
+        "lumbar",
+        "neuroreview"
+      ]
+    },
+    {
+      "name": "신경전도검사(NCS)",
+      "group": "신경 평가",
+      "question": "말초신경의 전기신호 전달에 이상이 있는가?",
+      "how": "신경을 자극하고 정해진 위치의 운동·감각 반응을 기록한다.",
+      "output": "잠복기·진폭·전도속도 등 선택 신경별 결과.",
+      "benefit": "말초신경 병변의 위치·특성과 다른 신경 문제의 감별을 돕는다.",
+      "limit": "검사 신경·온도·기술·병변 유형에 영향. 일부 신경근병증에서 감각 신경전도는 정상일 수 있다.",
+      "keys": [
+        "edx"
+      ]
+    },
+    {
+      "name": "침근전도(needle EMG)",
+      "group": "신경 평가",
+      "question": "근육의 전기활동에 신경근·말초신경·근육 질환을 시사하는 소견이 있는가?",
+      "how": "전문 의료진이 선택한 근육에 침 전극을 넣어 안정·수축 중 활동을 기록한다.",
+      "output": "자발활동·운동단위 등 여러 근육의 분포 패턴.",
+      "benefit": "NCS·진찰·영상과 함께 병변의 생리학적 근거와 감별 정보를 보탠다.",
+      "limit": "시점·검사 근육·운동축삭 침범 여부에 영향. 단독으로 모든 통증 또는 감각성 문제를 설명하지는 않는다.",
+      "keys": [
+        "edx"
+      ]
+    },
+    {
+      "name": "선택적 감각·유발전위·소섬유 검사",
+      "group": "신경 평가",
+      "question": "일반 신경 검사만으로 설명되지 않는 특정 경로·감각 문제가 있는가?",
+      "how": "임상 질문에 따라 QST·유발전위·H반사·피부생검·자율신경검사 등을 각각 선택한다.",
+      "output": "감각 역치·유발 반응·소섬유나 자율신경 관련 정보.",
+      "benefit": "선택한 신경병증 가설의 확인과 추가 원인평가를 지원한다.",
+      "limit": "서로 다른 검사들의 묶음이다. QST는 응답에 의존하며, 일반 결림 고객에게 전부 시행할 평가가 아니다.",
+      "keys": [
+        "neppain",
+        "peripheral",
+        "edx"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "VALD DynaMo",
+      "group": "힘·관절 평가",
+      "short": "힘과 가동범위를 휴대 장비로 기록",
+      "problem": "손으로만 평가하면 힘 차이와 전후 변화를 수치로 남기기 어렵다.",
+      "how": "밀기·당기기 힘 센서와 관성 기반 각도 측정. 검사별 힘·시간 곡선·ROM·좌우 결과를 기록한다.",
+      "benefit": "특정 방향의 힘과 범위를 수치로 설명하고 반복 측정 기록을 남긴다.",
+      "setting": "전문가가 자세·고정·과제를 정해 시행.",
+      "evidence": "공식 기능 확인. 검사자·고정·노력 영향. 개별 근육 원인을 자동 확정하지 않는다.",
+      "keys": [
+        "s16"
+      ]
+    },
+    {
+      "name": "KINVENT K-Push / K-Move",
+      "group": "힘·관절 평가",
+      "short": "휴대 힘 측정과 착용형 관절각 측정",
+      "problem": "근육군의 힘과 관절 범위를 쉽게 기록·비교하고 싶다.",
+      "how": "K-Push는 압박 힘, K-Move는 IMU 기반 각도를 기록한다. 힘·힘발달률·ROM 등 제품별 출력이 다르다.",
+      "benefit": "휴대 측정과 앱 피드백으로 평가·운동 진행을 확인한다.",
+      "setting": "의료·운동 전문가의 표준 과제.",
+      "evidence": "K-Push의 남성 44명 대퇴사두근 반복성 연구 확인. 다른 부위·환자·K-Move의 성능까지 검증된 것은 아니다.",
+      "keys": [
+        "kinvent",
+        "kpushtrial"
+      ]
+    },
+    {
+      "name": "VALD ForceFrame",
+      "group": "힘·관절 평가",
+      "short": "프레임에 센서를 고정한 등척성 검사",
+      "problem": "검사자가 손으로 저항을 유지하는 조건을 줄이고 싶다.",
+      "how": "조절 프레임에 힘 센서를 고정하고 정한 자세에서 힘을 잰다. 최대 힘·힘–시간·좌우 결과를 기록한다.",
+      "benefit": "고정된 조건에서 반복 검사와 실시간 힘 목표 피드백을 제공한다.",
+      "setting": "기관의 공간·자세 설정 필요.",
+      "evidence": "ACL 환자 27명 연구에서 반복성은 좋았지만 특정 굽힘 검사와 비교 장비 일치도에 한계가 있었다.",
+      "keys": [
+        "forceframe",
+        "fftrial"
+      ]
+    },
+    {
+      "name": "Biodex System 4 / HUMAC NORM",
+      "group": "힘·관절 평가",
+      "short": "관절 속도를 제어하며 토크를 측정",
+      "problem": "관절이 움직이는 동안의 동적 힘·일·지구력을 자세히 알고 싶다.",
+      "how": "몸과 축을 맞춰 고정하고 일정 속도 또는 정한 모드로 검사한다. 토크 곡선·일·파워 등을 얻는다.",
+      "benefit": "관절별 능력과 재활 전후 변화를 비교하고 설정한 조건에서 훈련한다.",
+      "setting": "설치 공간·고정·정렬·숙련 인력 필요.",
+      "evidence": "공식 IFU·브로슈어 확인. 국내 의원 보유 사례도 있음. 생활 기능·통증 원인의 전부를 대변하지 않는다.",
+      "keys": [
+        "biodex",
+        "humac",
+        "sejong"
+      ]
+    },
+    {
+      "name": "VALD ForceDecks",
+      "group": "움직임·부하 평가",
+      "short": "서기·점프·착지에서 지면에 가하는 힘",
+      "problem": "움직일 때 좌우 힘 분배와 힘의 시간 변화를 알고 싶다.",
+      "how": "두 힘판 위에서 과제를 수행한다. 지면반력·압력중심과 계산된 충격량·수행 지표를 얻는다.",
+      "benefit": "균형·착지·일어나기 등 부하 전략과 수행 변화를 비교한다.",
+      "setting": "전문가가 과제·안전·분석 지표를 선택.",
+      "evidence": "건강인 16명·12개 과제 측정 검증. 모든 지표가 동일 성능은 아니며 VALD 지원 연구다. 치료 효과 시험은 아니다.",
+      "keys": [
+        "forcedecks",
+        "fdtrial"
+      ]
+    },
+    {
+      "name": "VALD HumanTrak",
+      "group": "움직임·부하 평가",
+      "short": "카메라로 관절각과 동작을 기록",
+      "problem": "몸을 움직일 때 여러 분절이 어떻게 움직이는지 정량적으로 보고 싶다.",
+      "how": "마커 없는 3D 움직임 추정으로 관절각·ROM·패턴과 보고서를 산출한다.",
+      "benefit": "표준 동작의 반복 비교와 환자 설명을 돕는다.",
+      "setting": "전문가가 촬영 공간·위치·과제를 설정.",
+      "evidence": "17명 하체 관절각 연구 확인. 특정 버전·과제·집단의 결과이며 힘·심부근육 활성의 직접 측정은 아니다.",
+      "keys": [
+        "humantrak",
+        "httrial"
+      ]
+    },
+    {
+      "name": "EverEx MORA Vu / Flexum",
+      "group": "움직임·부하 평가",
+      "short": "국내 사진·영상 기반 자세·동작평가",
+      "problem": "진료에서 관절 움직임을 기록하고 이전 결과와 비교하고 싶다.",
+      "how": "영상 AI로 자세·관절각·ROM·리포트를 산출한다. 앱과 키오스크 등 제품별 구성을 구분한다.",
+      "benefit": "촬영 평가와 결과 기록·설명을 지원한다.",
+      "setting": "제품별 의도된 사용자·용도를 확인.",
+      "evidence": "공식 제품·개발자 안내 확인. 의료·웰니스 버전을 합쳐 표현하지 않으며 MORA Vu는 전문가 사용·진단 대체 불가를 표시한다.",
+      "keys": [
+        "s18",
+        "s19"
+      ]
+    },
+    {
+      "name": "dorsaVi ViMove+",
+      "group": "움직임·부하 평가",
+      "short": "착용 센서로 움직임과 비대칭을 기록",
+      "problem": "카메라만으로 기록하기 어려운 과제의 움직임을 반복 평가하고 싶다.",
+      "how": "모듈별 2~4개 착용 센서, 일부 영상 AI 평가. 동작·균형·케이던스 등 모듈별 지표를 산출한다.",
+      "benefit": "센서 기반 반복 평가와 움직임 코칭에 정보를 보탠다.",
+      "setting": "전문가가 센서 위치·모듈·과제를 선택.",
+      "evidence": "공식 현재 제품 확인. 구형 ViMove의 IMU+EMG 사양과 혼용하지 않음. IMU는 힘판처럼 지면반력을 직접 재지 않는다.",
+      "keys": [
+        "vimove"
+      ]
+    },
+    {
+      "name": "Delsys Trigno",
+      "group": "근육 전기활동",
+      "short": "과제 중 표면 근육 전기활동을 기록",
+      "problem": "힘·각도만으로 알 수 없는 근육 사용 타이밍을 보고 싶다.",
+      "how": "피부 전극으로 전기신호를 수집하고 활성 시점·진폭·정규화 패턴을 분석한다.",
+      "benefit": "바이오피드백과 과제별 근육 사용 연습·연구를 지원한다.",
+      "setting": "전극 배치·신호 처리에 숙련된 인력.",
+      "evidence": "공식 제품·매뉴얼 확인. 피부·인접근 신호·정규화 영향을 받으며 신호 크기가 곧 힘이나 원인은 아니다.",
+      "keys": [
+        "delsys",
+        "semgreview"
+      ]
+    },
+    {
+      "name": "Noraxon Ultium EMG",
+      "group": "근육 전기활동",
+      "short": "표면근전도와 움직임 신호를 동기화",
+      "problem": "근육 전기활동이 어떤 움직임·부하 시점에 나타나는지 함께 보고 싶다.",
+      "how": "무선 sEMG·내장 IMU와 구성별 다른 센서 신호를 동기화한다.",
+      "benefit": "임상·스포츠·인체공학의 과제 분석과 피드백 정보를 보탠다.",
+      "setting": "센서·부속품·분석 프로토콜 설정 필요.",
+      "evidence": "공식 제품·매뉴얼 목록 확인. 일반 표면 EMG와 별도 fine-wire 부속품을 구분한다. 진단용 NCS를 대신하지 않는다.",
+      "keys": [
+        "noraxon"
+      ]
+    },
+    {
+      "name": "Natus UltraPro S100",
+      "group": "전문 신경 평가",
+      "short": "EMG/NCS 전문 전기진단 시스템",
+      "problem": "신경·근육 질환의 특정 임상 질문에 생리학적 정보가 필요하다.",
+      "how": "자극·증폭·기록 장비로 NCS와 침근전도 등의 파형·잠복기·진폭·운동단위 정보를 얻는다.",
+      "benefit": "진찰·영상과 함께 신경·근육 병변의 감별과 위치 판단을 지원한다.",
+      "setting": "전문 의료진의 검사 선택·해석.",
+      "evidence": "공식 기능 확인. 국가별 제공 차이. 특정 질환의 자동 진단 정확도·한국 허가는 별도 확인이 필요하다.",
+      "keys": [
+        "natus",
+        "edx"
+      ]
+    },
+    {
+      "name": "Nihon Kohden Neuropack X1",
+      "group": "전문 신경 평가",
+      "short": "다채널 EMG/NCS·유발전위 시스템",
+      "problem": "선택한 신경 경로·근육의 전기반응을 측정하고 해석해야 한다.",
+      "how": "자극기·증폭기·검사 소프트웨어로 신경전도·근전도·유발반응과 보고서를 기록한다.",
+      "benefit": "전문 신경생리 검사의 표준 절차와 기록을 지원한다.",
+      "setting": "병원 신경생리·재활의학 검사 환경.",
+      "evidence": "공식 기능 확인. 수집·보고 기능 자체가 질환별 자동 진단 정확도를 뜻하지 않는다.",
+      "keys": [
+        "nihon",
+        "edx"
+      ]
+    },
+    {
+      "name": "Cadwell Sierra Summit",
+      "group": "전문 신경 평가",
+      "short": "전기진단 검사와 기록·보고 지원",
+      "problem": "여러 전기진단 프로토콜을 수행하고 결과를 정리해야 한다.",
+      "how": "EMG/NCS·유발전위 검사와 프로토콜·기록·보고 기능을 제공한다.",
+      "benefit": "전문가의 검사 수행과 의학적 해석에 필요한 파형·정보를 제공한다.",
+      "setting": "신경생리 전문 인력·전극·검사 설정 필요.",
+      "evidence": "공식 기능 확인. 회사의 신호품질·효율 설명은 독립적 질환별 진단 성능과 구분한다.",
+      "keys": [
+        "cadwell",
+        "edx"
+      ]
+    },
+    {
+      "name": "Medoc TSA2 Air",
+      "group": "전문 신경 평가",
+      "short": "온도 감각·통각 역치를 기록",
+      "problem": "선택한 환자의 냉·온 감각과 통증 반응을 정량화하고 싶다.",
+      "how": "온도 자극을 제어하고 사용자의 감지·통각 응답으로 역치를 기록한다.",
+      "benefit": "특정 신경병증 평가와 감각 특성 연구에 보조 정보를 제공한다.",
+      "setting": "임상·연구 전문가의 표준 자극 절차.",
+      "evidence": "공식 기능과 신경병증통 지침 확인. 응답·주의의 영향을 받으며 QST 단독으로 병변 위치·원인을 확정하지 않는다.",
+      "keys": [
+        "medoc",
+        "neppain"
+      ]
+    },
+    {
+      "name": "zebris FDM-T",
+      "group": "보행·발바닥 압력",
+      "short": "트레드밀에서 여러 걸음의 압력 분포 측정",
+      "problem": "보행 중 어느 발·부위에 언제 부하가 실리는지 알고 싶다.",
+      "how": "벨트 아래 정전용량 압력센서로 접촉·압력·보행주기와 좌우 결과를 기록한다.",
+      "benefit": "같은 속도 조건에서 보행·신발·재활 전후를 비교한다.",
+      "setting": "전문시설·훈련 인력·속도 설정·안전 확보.",
+      "evidence": "공식 안내와 2019 IFU 확인. 최신 전체 사양 검증은 아니며 트레드밀과 지상 보행은 다를 수 있다.",
+      "keys": [
+        "zebris"
+      ]
+    },
+    {
+      "name": "Tekscan Strideway / F-Scan GO",
+      "group": "보행·발바닥 압력",
+      "short": "보행로 또는 신발 안의 압력 측정",
+      "problem": "걷거나 신발·보조기를 사용할 때 발의 접촉 압력을 알고 싶다.",
+      "how": "Strideway 보행로 또는 F-Scan GO 인솔 센서로 압력·접촉·보행 지표를 기록한다.",
+      "benefit": "신발·보조기 조건과 보행·재활 변화를 비교한다.",
+      "setting": "측정 환경·센서 보정·반복 걸음 수 설정.",
+      "evidence": "공식 제품 비교 확인. 보행로와 인솔은 같은 조건이 아니며 압력만으로 허리·고관절의 원인을 특정하지 않는다.",
+      "keys": [
+        "tekscan"
+      ]
+    },
+    {
+      "name": "Hinge Health / Physitrack",
+      "group": "일상 관리·연결",
+      "short": "평가 이후 운동·피드백·추적 연결",
+      "problem": "평가나 운동 안내를 받은 뒤 생활에서 실행·추적이 끊긴다.",
+      "how": "설문·운동 과제·수행 및 불편감 보고·피드백·전문가 관리를 서비스별로 연결한다.",
+      "benefit": "관리 수행과 경과 공유를 이어가도록 돕는다.",
+      "setting": "Hinge는 미국 기업·보험 모델, Physitrack은 전문가의 운동 배정·환자 앱 사용.",
+      "evidence": "공식 기능 확인. 새 신경 진단 신호를 제공하는 장비와 다르며 한국 결제 수요·치료 효과는 별도 검증이다.",
+      "keys": [
+        "s15",
+        "s17"
+      ]
+    }
+  ],
+  "sources": {
+    "hira": {
+      "id": "s24",
+      "title": "심평원 — 나661 도수근력검사 급여기준",
+      "url": "https://www.hira.or.kr/rc/insu/insuadtcrtr/InsuAdtCrtrPopup.do?brdScnBltNo=4&isPopupYn=Y&mtgHmeDd=20231130&mtgMtrRegSno=1&sno=1",
+      "meta": "공식 기준 · 2023.11.30 게시 / 12.01 시행",
+      "claim": "부분 근력검사는 기본진료료 포함. 별도 산정 대상과 기록 요건을 구분한다.",
+      "limit": "2025년 공식 편집본 수록 확인. 2026년까지의 개정 이력 전체는 미검증. 실제 시행 빈도·환자 비용을 뜻하지 않음.",
+      "extra": [
+        "2025년 10월 심사지침",
+        "https://www.hira.or.kr/ebooksc/2025/10/BZ202510212390104.pdf"
+      ]
+    },
+    "nowon": {
+      "id": "s25",
+      "title": "노원삼성정형외과의원 — 스포츠메디컬센터",
+      "url": "https://nowonsamsungos.com/sports",
+      "meta": "국내 의원 공식 안내 · 게시일 미표기",
+      "claim": "서울 노원구 의원의 ROM·근력·균형 확인, 목표 설정과 단계별 재활 안내.",
+      "limit": "직접 본문·기관명 확인. 규모 있는 스포츠 진료 기관이며 일반 의원 대표성·실제 시행률·성과는 미확인.",
+      "extra": null
+    },
+    "sejong": {
+      "id": "s26",
+      "title": "세종스포츠정형외과의원 — 시설소개",
+      "url": "https://www.sjsclinic.com/facilities/",
+      "meta": "국내 의원 공식 안내 · 게시일 미표기",
+      "claim": "서울 광진구 의원의 바이오덱스 장비와 스포츠재활 시설 보유 사례.",
+      "limit": "직접 본문·기관명 확인. 장비 보유가 모든 초진의 검사 시행이나 효과를 증명하지 않음.",
+      "extra": null
+    },
+    "nrc": {
+      "id": "s27",
+      "title": "국립재활원 — 물리치료",
+      "url": "https://www.nrc.go.kr/hospital/html/content.do?depth=mi&menu_cd=01_05_04_02",
+      "meta": "국내 공공기관 안내 · 게시일 미표기",
+      "claim": "근력·관절범위·감각·이동·보행 기능평가와 치료 계획의 연결.",
+      "limit": "일반 경증 통증 외래를 대표하는 시행률 자료는 아님.",
+      "extra": null
+    },
+    "lumbar": {
+      "id": "s28",
+      "title": "AAPM&R — Lumbar Radiculopathy",
+      "url": "https://now.aapmr.org/lumbar-radiculopathy/",
+      "meta": "학회 임상 참조 · 2026.07.30 개정",
+      "claim": "근력·감각·반사·보행·신경역학과 필요 시 전기진단의 역할.",
+      "limit": "직접 본문 확인. 개별 진료의 적정성이나 사용자의 검사 결과를 판단하지 않음.",
+      "extra": null
+    },
+    "edx": {
+      "id": "s29",
+      "title": "AAPM&R — Electrodiagnosis of Radiculopathies",
+      "url": "https://now.aapmr.org/electrodiagnosis-of-radiculopathies-cervical-thoracic-and-lumbar/",
+      "meta": "학회 임상 참조 · 2023.06.22 개정",
+      "claim": "침근전도·신경전도·H반사·유발전위의 임상 질문과 한계.",
+      "limit": "신경근병증의 전문 검사 맥락. 정상 검사로 모든 신경 이상을 배제할 수 없음.",
+      "extra": null
+    },
+    "neppain": {
+      "id": "s30",
+      "title": "EAN–EFIC–NeuPSIG — Neuropathic pain assessment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37253688/",
+      "meta": "공동 가이드라인 · 2023.05 온라인 / 08 인쇄",
+      "claim": "신경병증통 진단 경로의 선별도구, QST·신경생리·피부생검의 역할.",
+      "limit": "공식 초록 확인. 적응증이 다른 검사들을 일반 결림의 일괄 검사로 확대하지 않음.",
+      "extra": null
+    },
+    "peripheral": {
+      "id": "s31",
+      "title": "AAPM&R — Peripheral Polyneuropathy Evaluation",
+      "url": "https://now.aapmr.org/approach-to-peripheral-polyneuropathy-evaluation-and-differential-diagnosis/",
+      "meta": "학회 임상 참조 · 2026.05.14 개정",
+      "claim": "신경병증 유형에 맞춘 검사와 선택된 소섬유·자율신경 평가.",
+      "limit": "일상적인 근골격 불편함 고객에게 전부 시행하는 근거는 아님.",
+      "extra": null
+    },
+    "shoulder": {
+      "id": "s32",
+      "title": "회전근개 건병증 진단·재활 임상지침",
+      "url": "https://doi.org/10.2519/jospt.2025.13182",
+      "meta": "APTA/JOSPT · 2025.01.30 온라인 / 04 인쇄",
+      "claim": "HHD·ROM·환자보고 평가와 운동 관리. 동적 견갑골 ROM 측정의 제한.",
+      "limit": "공식 본문/검색 본문 확인. 회전근개 건병증 대상이며 모든 어깨 질환·전거근 원인 판정으로 확대 불가.",
+      "extra": null
+    },
+    "pfp": {
+      "id": "s33",
+      "title": "Neal 등 — 슬개대퇴통증 Best-practice guide",
+      "url": "https://doi.org/10.1136/bjsports-2024-108110",
+      "meta": "근거·환자·전문가 종합 · 2024.10.14 온라인",
+      "claim": "교육을 바탕으로 무릎 ± 고관절 표적 운동, 평가와 개인 필요에 따른 관리 선택.",
+      "limit": "65개 고품질 RCT·3,796명과 질적 자료를 종합. 모든 무릎 통증을 대상으로 한 지침 아님.",
+      "extra": null
+    },
+    "mash": {
+      "id": "s34",
+      "title": "Hicks 등 — MASH 무작위시험",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38258673/",
+      "meta": "다기관 RCT · 2024.01",
+      "claim": "60~85세 184명, 요통+고관절 통증·약화 집단에서 고관절 중심 치료 비교.",
+      "limit": "8주 장애점수 우세, 같은 시점 보행속도 우세 없음. 원인 확정 시험 아님. 공식 초록 확인.",
+      "extra": null
+    },
+    "hipreview": {
+      "id": "s35",
+      "title": "고관절 개입과 요통 — 체계적 고찰·메타분석",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37037144/",
+      "meta": "8개 시험·508명 · 2023.04.05 온라인",
+      "claim": "고관절 강화·스트레칭의 단기 효과를 검토.",
+      "limit": "근거 확실성이 매우 낮음. 모든 요통에서 고관절이 원인이라는 주장이나 장기 효과 근거로 사용 불가.",
+      "extra": null
+    },
+    "neuroreview": {
+      "id": "s36",
+      "title": "Clinical neurological examination accuracy review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5324296/",
+      "meta": "12개 연구 고찰 · 2017.02.23",
+      "claim": "운동·감각·반사·신경역학 검사의 진단 성능과 한계.",
+      "limit": "오래된 고찰이며 개별 검사 하나로 신경근 병변을 확진·배제하는 근거가 아님.",
+      "extra": null
+    },
+    "semgreview": {
+      "id": "s37",
+      "title": "만성 요통의 표면근전도 — 체계적 고찰",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39427457/",
+      "meta": "11개 연구 · 2024 온라인 / 11 인쇄",
+      "claim": "굴곡–폄–이완 과제에서 표면근전도의 신뢰도·정확도를 검토.",
+      "limit": "정확도 편차와 선택·기준검사 편향. 범용 원인 근육 진단기라는 근거는 아님.",
+      "extra": null
+    },
+    "cdc": {
+      "id": "s38",
+      "title": "CDC STEADI — 기능평가 자료",
+      "url": "https://www.cdc.gov/steadi/hcp/clinical-resources/",
+      "meta": "공공 임상 자료 · 페이지 날짜 미표기",
+      "claim": "TUG·30초 의자 일어나기·단계별 균형 검사 안내.",
+      "limit": "주로 고령자의 낙상 위험 평가 맥락. 기준치를 젊은 요통 환자의 정상치로 사용하지 않음.",
+      "extra": null
+    },
+    "kinvent": {
+      "id": "s39",
+      "title": "KINVENT — K-Push / K-Move",
+      "url": "https://physio.kinvent.com/page-produit/k-push/",
+      "meta": "공식 제품 소개 · 발행일 미표기",
+      "claim": "압박 기반 힘 측정과 IMU 기반 관절각 측정의 별도 제품.",
+      "limit": "회사 기능 설명과 특정 검사 프로토콜의 실제 성능은 구분.",
+      "extra": [
+        "K-Move 공식 안내",
+        "https://kinvent.com/kinvent-product/goniometer-k-move/"
+      ]
+    },
+    "forceframe": {
+      "id": "s40",
+      "title": "VALD — ForceFrame",
+      "url": "https://valdhealth.com/products/forceframe",
+      "meta": "공식 제품 소개 · 발행일 미표기",
+      "claim": "프레임 고정 힘 센서를 이용한 등척성 측정·훈련.",
+      "limit": "모든 검사 방향이 동일하게 타당하거나 장비 간 값이 같다는 근거는 아님.",
+      "extra": null
+    },
+    "biodex": {
+      "id": "s41",
+      "title": "Biodex System 4 — 공식 사용설명서",
+      "url": "https://biodexrehab.com/wp-content/uploads/2024/08/20-001-CLR-System-4-IFU-Rev-D.pdf",
+      "meta": "System 4 IFU Rev D · 정확한 발행일 미확인",
+      "claim": "고정·축 정렬·속도와 모드 설정에 따른 관절 평가·훈련.",
+      "limit": "2024-08은 업로드 경로. 문서 발행일로 단정하지 않음. 한국 허가·가격은 미확인.",
+      "extra": null
+    },
+    "humac": {
+      "id": "s42",
+      "title": "CSMi — HUMAC NORM",
+      "url": "https://csmisolutions.com/wp-content/uploads/2024/01/200003E-HUMAC-NORM-Product-Brochure.pdf",
+      "meta": "공식 제품 브로슈어 · 발행일 미표기",
+      "claim": "등속성·등척성 등 관절 평가와 재활 모드.",
+      "limit": "2024-01은 파일 경로이며 발행일을 확정하지 않음. 독립적인 모든 적응증의 효과 자료가 아님.",
+      "extra": null
+    },
+    "forcedecks": {
+      "id": "s43",
+      "title": "VALD — ForceDecks",
+      "url": "https://valdhealth.com/products/forcedecks",
+      "meta": "공식 제품 소개 · 발행일 미표기",
+      "claim": "힘판을 이용한 힘·균형·움직임 과제와 보고서.",
+      "limit": "측정 지표·장비 모델별 성능 차이와 해당 검증 범위를 확인해야 함.",
+      "extra": null
+    },
+    "humantrak": {
+      "id": "s44",
+      "title": "VALD — HumanTrak",
+      "url": "https://valdhealth.com/products/humantrak",
+      "meta": "공식 제품 소개 · 발행일 미표기",
+      "claim": "카메라 기반 3D 움직임·관절각과 평가 보고서.",
+      "limit": "현재 제품 설명과 특정 연구 버전의 센서·알고리즘을 동일시하지 않음.",
+      "extra": null
+    },
+    "vimove": {
+      "id": "s45",
+      "title": "dorsaVi — ViMove+",
+      "url": "https://dorsavi.com/vimove-plus/",
+      "meta": "현재 제품 공식 소개 · 발행일 미표기",
+      "claim": "모듈별 착용 센서와 움직임 분석·영상 AI 평가.",
+      "limit": "구형 ViMove의 IMU+EMG 사양을 현재 ViMove+ 전 모듈에 적용하지 않음.",
+      "extra": [
+        "현재 교육 자료",
+        "https://dorsavi.com/knowledge-center-training-for-vimove/"
+      ]
+    },
+    "delsys": {
+      "id": "s46",
+      "title": "Delsys — Trigno",
+      "url": "https://delsys.com/trigno/",
+      "meta": "공식 제품·사용 문서 · 발행일 미표기",
+      "claim": "무선 표면 근전기 신호와 구성별 움직임 신호.",
+      "limit": "부속품별 용도를 구분해야 함. 표면 신호와 침근전도 진단은 다른 검사.",
+      "extra": [
+        "공식 시스템 사용자 안내",
+        "https://www.delsys.com/downloads/USERSGUIDE/trigno/wireless-biofeedback-system.pdf"
+      ]
+    },
+    "noraxon": {
+      "id": "s47",
+      "title": "Noraxon — Ultium EMG",
+      "url": "https://www.noraxon.com/our-products/ultium-emg/",
+      "meta": "공식 제품·매뉴얼 목록 · 2026.05 매뉴얼 색인 확인",
+      "claim": "표면근전도·IMU 및 구성별 신호 동기화.",
+      "limit": "표면 EMG 구성과 별도 fine-wire 부속품을 구분. 신호 크기가 곧 근력·원인은 아님.",
+      "extra": [
+        "공식 매뉴얼 목록",
+        "https://www.noraxon.com/support-categories/current-user-manuals/"
+      ]
+    },
+    "natus": {
+      "id": "s48",
+      "title": "Natus — UltraPro S100",
+      "url": "https://natus.com/neuro/ultrapro-s100-emg/",
+      "meta": "공식 전기진단 제품 소개 · 발행일 미표기",
+      "claim": "NCS·EMG 등 전문 전기진단 프로토콜 지원.",
+      "limit": "국가별 제공 차이. 특정 질환의 자동 진단 정확도·한국 허가는 별도 확인 필요.",
+      "extra": null
+    },
+    "nihon": {
+      "id": "s49",
+      "title": "Nihon Kohden — Neuropack X1",
+      "url": "https://eu.nihonkohden.com/products/neurology/neuropack-x1",
+      "meta": "공식 전기진단 제품 소개 · 발행일 미표기",
+      "claim": "증폭·자극·기록과 EMG/NCS/유발전위 검사.",
+      "limit": "신호 수집·보고 기능이 모든 질환의 진단 성능을 뜻하지 않음.",
+      "extra": null
+    },
+    "cadwell": {
+      "id": "s50",
+      "title": "Cadwell — Sierra Summit",
+      "url": "https://www.cadwell.com/products/electrodiagnostic-products/sierra-summit/",
+      "meta": "공식 전기진단 제품 소개 · 발행일 미표기",
+      "claim": "EMG/NCS·유발전위와 프로토콜·기록 지원.",
+      "limit": "전문 검사 선택과 의학적 해석이 필요. 회사 효율 주장은 임상 효과와 구분.",
+      "extra": null
+    },
+    "zebris": {
+      "id": "s51",
+      "title": "zebris — FDM-T 트레드밀 보행 분석",
+      "url": "https://www.zebris.de/medizin/dynamische-ganganalyse-auf-dem-laufband",
+      "meta": "공식 제품 소개 / 확인한 IFU는 2019.12.04",
+      "claim": "트레드밀 아래 정전용량 압력센서로 보행과 압력 분포 기록.",
+      "limit": "IFU는 구버전 폴더 문서. 최신 전체 사양·적응증 검증으로 표현하지 않음.",
+      "extra": [
+        "확인한 2019 IFU",
+        "https://www.zebris.de/fileadmin/Editoren/zebris-PDF-Manuals/Medizin/Hardware/Alte_Versionen/FDM-T_Hardware-Manual_Med_191204_en.pdf"
+      ]
+    },
+    "tekscan": {
+      "id": "s52",
+      "title": "Tekscan — Strideway / F-Scan GO",
+      "url": "https://www.tekscan.com/gait-analysis-systems",
+      "meta": "공식 보행 제품 비교 · 발행일 미표기",
+      "claim": "압력 보행로와 인솔 기반 측정의 서로 다른 구성.",
+      "limit": "보행로·인솔 결과를 같은 조건으로 취급하지 않음. 통증 원인 진단 성능은 별개.",
+      "extra": [
+        "Strideway 공식 안내",
+        "https://www.tekscan.com/products-solutions/systems/strideway-system"
+      ]
+    },
+    "medoc": {
+      "id": "s53",
+      "title": "Medoc — TSA2 Air",
+      "url": "https://www.medoc-web.com/tsa-2air",
+      "meta": "공식 제품 소개 · 발행일 미표기",
+      "claim": "온도 자극과 감각·통각 역치 기록을 위한 QST 장비.",
+      "limit": "환자의 응답이 필요한 감각 평가. 단독으로 신경병증·통증 원인을 모두 확정하지 않음.",
+      "extra": null
+    },
+    "kpushtrial": {
+      "id": "s54",
+      "title": "Trybulski 등 — K-Push 반복성 연구",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40630389/",
+      "meta": "측정 원연구 · 2025.06.24",
+      "claim": "남성 44명, 선수·비훈련 건강인의 대퇴사두근 힘·힘발달률 반복성.",
+      "limit": "여성·환자·다른 부위·원인 진단으로 일반화 불가. 이해상충 전체 감사는 미실시.",
+      "extra": null
+    },
+    "fftrial": {
+      "id": "s55",
+      "title": "Arp 등 — ForceFrame 타당도·일치도·신뢰도",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11368445/",
+      "meta": "측정 원연구 · 2024.09.01",
+      "claim": "ACL 손상·재건 후 27명의 무릎 등척성 힘을 다른 장비와 비교.",
+      "limit": "특정 굽힘 자세에서 낮은 비교 성능과 절대값 차이. 연구위원회가 장비·교통비 지원, 저자 관련 이해상충 없음 보고.",
+      "extra": null
+    },
+    "fdtrial": {
+      "id": "s56",
+      "title": "Collings 등 — ForceDecks 타당도·반복성",
+      "url": "https://doi.org/10.1016/j.jsams.2024.04.014",
+      "meta": "측정 원연구 · 2024 온라인 / 08 인쇄",
+      "claim": "건강인 16명·12개 과제·2회 세션의 힘판 비교.",
+      "limit": "VALD가 수집·분석·보고 비용을 지원. 저자는 분석 독립 수행을 명시. 모든 지표·환자·임상 효과로 확대 불가.",
+      "extra": [
+        "연구자 공개 결과·지원 내역",
+        "https://tylercollings.github.io/ForceDecks-validity-reliability/"
+      ]
+    },
+    "httrial": {
+      "id": "s57",
+      "title": "HumanTrak 하체 관절각 검증 연구",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40493557/",
+      "meta": "측정 원연구 · 2025 / 정확한 월일 미확인",
+      "claim": "17명, V2.9.3의 고관절 ROM·스쿼트·런지와 Vicon 비교.",
+      "limit": "두 시스템 비동시 측정. 특정 버전·과제·집단의 결과. 상업적 독립성 전체는 미감사.",
+      "extra": null
+    }
+  },
+  "total_sources": 57
+}

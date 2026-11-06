@@ -1,0 +1,14 @@
+{
+  "sections": 7,
+  "assessment_methods": 8,
+  "embedded_official_images": 3,
+  "images_loaded": true,
+  "desktop": "passed",
+  "mobile_overflow": false,
+  "anchor_navigation": "passed",
+  "print": "passed",
+  "offline_http_requests": 0,
+  "page_errors": [],
+  "visible_text_chars": 7247,
+  "file_bytes": 3924385
+}

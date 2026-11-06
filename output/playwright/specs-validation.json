@@ -1,0 +1,16 @@
+{
+  "candidates": 5,
+  "sources": 21,
+  "internal_links": 53,
+  "local_research_link": "passed",
+  "budget_arithmetic": "passed",
+  "desktop": "passed",
+  "mobile_overflow": false,
+  "mobile_navigation": "passed",
+  "citation_expansion": "passed",
+  "print_button": "passed",
+  "print_expansion": "passed",
+  "print_restore": "passed",
+  "offline_requests": 0,
+  "page_errors": []
+}
